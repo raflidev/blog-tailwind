@@ -5,9 +5,9 @@
         <div class="flex items-center justify-between p-6">
           <router-link to="/" class="font-bold text-xl  tracking-tight">RafliBlog</router-link>
           <div  class="hidden md:flex md:flex-row md:block">
-            <router-link to="/kategori" active-class="bg-gray-300 text-gray-800"  exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3">Kategori</router-link>
-            <router-link to="/jurnal" active-class="bg-gray-300 text-gray-800" exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3">Jurnalmu</router-link>
-            <router-link to="/tentang" active-class="bg-gray-300 text-gray-800" exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3">Tentang</router-link>
+            <router-link to="/kategori" active-class="bg-gray-300 text-gray-800"  exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3 mx-1">Kategori</router-link>
+            <router-link to="/jurnal" active-class="bg-gray-300 text-gray-800" exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3 mx-1">Jurnalmu</router-link>
+            <router-link to="/tentang" active-class="bg-gray-300 text-gray-800" exact class="font-xl dark:hover:bg-gray-600 hover:bg-blue-200 rounded font-medium px-4 py-3 mx-1">Tentang</router-link>
           </div>
           <div class="md:flex md:flex-row md:block">
             <div class="hidden md:flex md:items-center md:flex-row md:block mr-5">
