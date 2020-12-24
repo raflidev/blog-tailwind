@@ -44,6 +44,12 @@
         </svg>
 				<span class="tab tab-kategori block text-xs">Kategori</span>
 			</router-link>
+			<router-link to="/jurnal" active-class="bg-gray-300 text-gray-800 dark:text-gray-300 dark:bg-gray-800" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
+        <svg  width="25" height="25" class="inline-block mb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+        </svg>
+				<span class="tab tab-explore block text-xs">Jurnal</span>
+			</router-link>
 			<router-link to="/tentang" active-class="bg-gray-300 text-gray-800 dark:text-gray-300 dark:bg-gray-800" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
 				<svg width="25" height="25" class="inline-block mb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />

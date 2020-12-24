@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="dark:bg-gray-900 dark:text-white py-10 border-gray-900">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4 lg:p-0">
         <h1 class="text-4xl font-bold">Kategori</h1>
         <p class="text-medium mt-4">Ini adalah kategori artikel, kamu bisa pilih sesuai keinginanmu.</p>
         <div class="flex w-full md:w-2/3 items-center flex-wrap mt-4">
