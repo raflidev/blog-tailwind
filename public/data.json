@@ -1,6 +1,11 @@
 {
    "blog":
    [
-      {"id":0,"judul":"Fungsi doctype pada HTML","kategori":"HTML"}
+      {"id":0,"judul":"Fungsi doctype pada HTML","kategori":"HTML","gambar":"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882"},
+      {"id":1,"judul":"Mempermudah penulisan CSS","kategori":"CSS","gambar":"https://res.cloudinary.com/practicaldev/image/fetch/s--cqZIl0gD--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/elytski1o23ybosxmors.jpg"},
+      {"id":2,"judul":"HTML Semantic yang harus kamu tau","kategori":"HTML","gambar":"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882"},
+      {"id":3,"judul":"Array dan object dalam Javascript","kategori":"JS","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"},
+      {"id":4,"judul":"Cara menggunakan carousel pada Vue","kategori":"Vue","gambar":"https://wallpaperaccess.com/full/4584347.png"},
+      {"id":5,"judul":"Apakah Jquery masih relevan ditahun 2020?","kategori":"JS","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"}
    ]
 }

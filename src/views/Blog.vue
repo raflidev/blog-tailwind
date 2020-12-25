@@ -1,8 +1,7 @@
 <template>
   <section>
     <div class="relative">
-      <div class="w-full opacity-50 h-40 lg:h-42 bg-blue-500 object-contain bg-cover bg-center" style="background-image:url('https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882')">
-        <!-- <img class="object-contain rounded bg-scroll opacity-50" src="" alt=""> -->
+      <div class="w-full opacity-50 h-40 lg:h-42 bg-blue-500 object-contain bg-cover bg-center" :style="{backgroundImage:'url('+blog.gambar+')'}">
       </div>
       <div class="absolute top-1/2 text-center w-full">
         <p class="text-xl lg:text-4xl font-bold text-center">
@@ -22,8 +21,18 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
-
+data(){
+  return{
+    blog: []
+  }
+},
+mounted(){
+  axios.get("/data.json").then(res => {
+    this.blog = res.data.blog[this.$route.params.id]
+  })
+}
 }
 </script>
 

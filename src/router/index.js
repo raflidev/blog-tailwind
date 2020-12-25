@@ -18,7 +18,25 @@ const routes = [
   {
     path: '/kategori',
     name: 'Kategori',
-    component: Kategori
+    component: Kategori,
+    children:[
+      {
+        path: 'html',
+        component: Kategori,
+      },
+      {
+        path: 'css',
+        component: Kategori,
+      },
+      {
+        path: 'js',
+        component: Kategori,
+      },
+      {
+        path: 'vue',
+        component: Kategori,
+      },
+    ]
   },
   {
     path: '/login',
@@ -36,7 +54,7 @@ const routes = [
     component: Tentang
   },
   {
-    path: '/blog/:blog_id',
+    path: '/blog/:id/:blog_id',
     name: 'blog',
     component: Blog
   }
