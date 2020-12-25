@@ -8,7 +8,9 @@
               <div class="absolute top-4 left-3">
                 <a href="" class="bg-green-300 dark:bg-green-800 px-3 py-2 mr-3 rounded font-bold opacity-75 hover:opacity-100">HTML</a>
               </div>
-              <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882" alt="" class="object-contain rounded">
+              <router-link to="/blog/Lorem ipsum dolor sit.">
+                <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882" alt="" class="object-contain rounded">
+              </router-link>
               <div class="px-4">
                 <h2 class="font-bold my-3 text-xl">Lorem ipsum dolor sit.</h2>
               </div>

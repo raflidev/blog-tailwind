@@ -5,6 +5,7 @@ import Kategori from '../views/Kategori.vue'
 import Login from '../views/Login.vue'
 import Jurnal from '../views/Jurnal.vue'
 import Tentang from '../views/Tentang.vue'
+import Blog from '../views/Blog.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/tentang',
     name: 'Tentang',
     component: Tentang
+  },
+  {
+    path: '/blog/:blog_id',
+    name: 'blog',
+    component: Blog
   }
 ]
 

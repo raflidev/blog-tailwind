@@ -1,12 +1,12 @@
 <template>
    <section id="footer">
       <div class="w-full lg:h-32 h-42 pb-20 bg-blue-300 dark:bg-blue-800 dark:text-white">
-        <div class="container mx-auto flex flex-wrap justify-between items-center pt-10">
-          <div>
+        <div class="container mx-auto px-4 flex flex-wrap justify-between items-center pt-10">
+          <div class="mb-3">
             <span class="font-bold text-xl tracking-tight">RafliBlog</span>
             <p>Blog Seputar Web Development</p>
           </div>
-          <div>
+          <div class="mb-3">
             <p class="font-medium">Rafli Ramadhan &copy; 2020</p>
             <p>made with ❤️ in Bekasi </p>
           </div>
