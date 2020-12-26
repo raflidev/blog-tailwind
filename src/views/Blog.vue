@@ -4,7 +4,7 @@
       <div class="w-full opacity-50 h-40 lg:h-42 bg-blue-500 object-contain bg-cover bg-center" :style="{backgroundImage:'url('+blog.gambar+')'}">
       </div>
       <div class="absolute top-1/2 text-center w-full">
-        <p class="text-xl lg:text-4xl font-bold text-center">
+        <p class="text-xl lg:text-4xl font-bold text-center mb-3">
           {{$route.params.blog_id}}
         </p>
       </div>
