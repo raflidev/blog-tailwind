@@ -6,6 +6,7 @@ import Login from '../views/Login.vue'
 import Jurnal from '../views/Jurnal.vue'
 import Tentang from '../views/Tentang.vue'
 import Blog from '../views/Blog.vue'
+import BlogJurnal from '../views/BlogJurnal.vue'
 
 Vue.use(VueRouter)
 
@@ -78,6 +79,11 @@ const routes = [
     path: '/blog/:id/:blog_id',
     name: 'blog',
     component: Blog
+  },
+  {
+    path: '/jurnal/:id/:jurnal_id',
+    name: 'blogjurnal',
+    component: BlogJurnal
   }
 ]
 

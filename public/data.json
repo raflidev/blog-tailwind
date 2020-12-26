@@ -12,7 +12,7 @@
    [
       {"id":0,"judul":"Membuat layout dengan html dan css","kategori":"frontend","gambar":"https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"},
       {"id":1,"judul":"Membuat halaman login dengan vue","kategori":"frontend","gambar":"https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"},
-      {"id":2,"judul":"Lebih baik mana? Figma atau AdobeXD?","kategori":"uiux","gambar":"https://miro.medium.com/max/4096/1*-4HdH6SpcXaOMhOKTJ73GQ.png"}
+      {"id":2,"judul":"Apa itu wireframe dan cara membuatnya","kategori":"uiux","gambar":"https://miro.medium.com/max/4096/1*-4HdH6SpcXaOMhOKTJ73GQ.png"}
       
    ]
 }
