@@ -12,9 +12,7 @@
 
     <div class="flex justify-center dark:bg-gray-800">
       <div class="w-3/4 text-lg dark:text-white py-6">
-        <p class="mb-3 text-justify" v-for="item in 4" :key="item.index">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eum iste voluptas enim ipsum illo eligendi laudantium cumque? Excepturi esse, necessitatibus illo, aliquam incidunt explicabo numquam iste est fuga amet voluptatibus repudiandae.
-        </p>
+        <div class="mb-3" v-html="blog.artikel"></div>
       </div>
     </div>
   </section>
@@ -35,7 +33,3 @@ mounted(){
 }
 }
 </script>
-
-<style>
-
-</style>
