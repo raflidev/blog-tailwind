@@ -16,24 +16,28 @@ const routes = [
     component: Feed
   },
   {
-    path: '/kategori',
+    path: '/kategori/',
     name: 'Kategori',
     component: Kategori,
     children:[
       {
         path: 'html',
+        name: 'html',
         component: Kategori,
       },
       {
         path: 'css',
+        name: 'css',
         component: Kategori,
       },
       {
-        path: 'js',
+        path: 'uiux',
+        name: 'js',
         component: Kategori,
       },
       {
         path: 'vue',
+        name: 'vue',
         component: Kategori,
       },
     ]
@@ -46,7 +50,24 @@ const routes = [
   {
     path: '/jurnal',
     name: 'Jurnal',
-    component: Jurnal
+    component: Jurnal,
+    children:[
+      {
+        path: 'frontend',
+        name: 'frontend',
+        component: Jurnal,
+      },
+      {
+        path: 'backend',
+        name: 'backend',
+        component: Jurnal,
+      },
+      {
+        path: 'uiux',
+        name: 'uiux',
+        component: Jurnal,
+      },
+    ]
   },
   {
     path: '/tentang',

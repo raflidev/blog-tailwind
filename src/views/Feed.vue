@@ -6,13 +6,13 @@
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-10 py-10 dark:text-white">
             <div class="min-h-60 lg:w-96 w-full bg-blue-100 dark:bg-gray-800 p-3 rounded relative" v-for="blog in blog" :key="blog.index">
               <div class="absolute top-4 left-3 z-10">
-                <router-link :to="'/kategori/'+blog.kategori" class="bg-green-300 dark:bg-green-800 px-3 py-2 mr-3 rounded font-bold opacity-75 hover:opacity-100">{{blog.kategori}}</router-link>
+                <router-link :to="'/kategori/'+blog.kategori" class="bg-green-300 uppercase dark:bg-green-800 px-3 py-2 mr-3 rounded font-bold opacity-75 hover:opacity-100">{{blog.kategori}}</router-link>
               </div>
-              <router-link :to="'blog/'+blog.id+'/'+blog.judul">
+              <router-link :to="'/blog/'+blog.id+'/'+blog.judul">
                 <img :src="blog.gambar" alt="" class="object-contain rounded hover:opacity-60">
               </router-link>
               <div class="px-4">
-                <router-link :to="'blog/'+blog.id+'/'+blog.judul">
+                <router-link :to="'/blog/'+blog.id+'/'+blog.judul">
                   <h2 class="font-bold my-3 text-xl hover:underline">{{blog.judul}}</h2>
                 </router-link>
               </div>

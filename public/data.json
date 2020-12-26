@@ -1,11 +1,18 @@
 {
    "blog":
    [
-      {"id":0,"judul":"Fungsi doctype pada HTML","kategori":"HTML","gambar":"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882"},
-      {"id":1,"judul":"Mempermudah penulisan CSS","kategori":"CSS","gambar":"https://res.cloudinary.com/practicaldev/image/fetch/s--cqZIl0gD--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/elytski1o23ybosxmors.jpg"},
-      {"id":2,"judul":"HTML Semantic yang harus kamu tau","kategori":"HTML","gambar":"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/hNQEpv1uR5UdRen5xP9Cjxez/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882"},
-      {"id":3,"judul":"Array dan object dalam Javascript","kategori":"JS","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"},
-      {"id":4,"judul":"Cara menggunakan carousel pada Vue","kategori":"Vue","gambar":"https://wallpaperaccess.com/full/4584347.png"},
-      {"id":5,"judul":"Apakah Jquery masih relevan ditahun 2020?","kategori":"JS","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"}
+      {"id":0,"judul":"Fungsi doctype pada HTML","kategori":"html","gambar":"https://cdn.hipwallpaper.com/i/24/80/D1UFrP.jpg"},
+      {"id":1,"judul":"Mempermudah penulisan CSS","kategori":"css","gambar":"https://res.cloudinary.com/practicaldev/image/fetch/s--cqZIl0gD--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/elytski1o23ybosxmors.jpg"},
+      {"id":2,"judul":"HTML Semantic yang harus kamu tau","kategori":"html","gambar":"https://cdn.hipwallpaper.com/i/24/80/D1UFrP.jpg"},
+      {"id":3,"judul":"Array dan object dalam Javascript","kategori":"js","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"},
+      {"id":4,"judul":"Cara menggunakan carousel pada Vue","kategori":"vue","gambar":"https://wallpaperaccess.com/full/4584347.png"},
+      {"id":5,"judul":"Apakah Jquery masih relevan ditahun 2020?","kategori":"js","gambar":"https://www.wallpapertip.com/wmimgs/83-838195_javascript-javascript-hd.png"}
+   ],
+   "jurnal":
+   [
+      {"id":0,"judul":"Membuat layout dengan html dan css","kategori":"frontend","gambar":"https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"},
+      {"id":1,"judul":"Membuat halaman login dengan vue","kategori":"frontend","gambar":"https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"},
+      {"id":2,"judul":"Lebih baik mana? Figma atau AdobeXD?","kategori":"uiux","gambar":"https://miro.medium.com/max/4096/1*-4HdH6SpcXaOMhOKTJ73GQ.png"}
+      
    ]
 }

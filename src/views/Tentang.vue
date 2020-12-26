@@ -2,7 +2,7 @@
 <section class="dark:bg-gray-800">
   <div class="flex h-screen">
       <div class="m-auto">
-        <div class="w-80 lg:w-96 p-6 bg-gray-100 dark:bg-gray-700 dark:text-white rounded-lg">
+        <div class="w-80 lg:w-96 p-7 bg-gray-100 dark:bg-gray-700 dark:text-white rounded-lg">
           <div class="text-center">
             <div class="mb-3">
               <img
