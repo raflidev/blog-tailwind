@@ -31,7 +31,7 @@ const routes = [
         component: Kategori,
       },
       {
-        path: 'uiux',
+        path: 'js',
         name: 'js',
         component: Kategori,
       },
