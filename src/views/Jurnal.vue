@@ -18,7 +18,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-10 py-10 dark:text-white" v-if="jurnalSelected.length > 0">
             <div class="min-h-60 lg:w-96 w-full bg-blue-100 dark:bg-gray-800 p-3 rounded relative" v-for="jurnal in jurnalSelected" :key="jurnal.index">
               <div class="absolute top-4 left-3 z-10">
-                <router-link :to="'/kategori/'+jurnal.kategori" class="bg-green-300 uppercase dark:bg-green-800 px-3 py-2 mr-3 rounded font-bold opacity-75 hover:opacity-100">{{jurnal.kategori}}</router-link>
+                <div class="bg-green-300 uppercase dark:bg-green-800 px-3 py-2 mr-3 rounded font-bold">{{jurnal.kategori}}</div>
               </div>
               <router-link :to="'/jurnal/'+jurnal.id+'/'+jurnal.judul">
                 <img :src="jurnal.gambar" alt="" class="object-contain rounded hover:opacity-60">
